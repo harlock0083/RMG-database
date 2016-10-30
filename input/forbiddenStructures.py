@@ -350,3 +350,22 @@ u"""
 """,
 )
 
+entry(
+    label = "3H-Pyrazol",
+    group = 
+"""
+multiplicity [2,3,4,5]
+1 C ux {2,[S,D]} {5,[S,D]}
+2 C ux {1,[S,D]} {3,[S,D]}
+3 C ux {2,[S,D]} {4,[S,D]}
+4 N ux {3,[S,D]} {5,[S,D]}
+5 N ux {1,[S,D]} {4,[S,D]}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sims (xa1450 & xa1451) crashed with error: Invalid k(E) values computed for path reaction "C(=[CH])[N]N=C(1479) <=> C1[CH]C=N[N]1(1659)"
+EA sims (xa1452 & xa1453) crashed with error: Invalid k(E) values computed for path reaction "C(=[CH])[N]N=C(1478) <=> C1C=C[N][N]1(1824)"
+""",
+)
+
