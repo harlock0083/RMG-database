@@ -366,6 +366,29 @@ multiplicity [2,3,4,5]
 u"""
 EA sims (xa1450 & xa1451) crashed with error: Invalid k(E) values computed for path reaction "C(=[CH])[N]N=C(1479) <=> C1[CH]C=N[N]1(1659)"
 EA sims (xa1452 & xa1453) crashed with error: Invalid k(E) values computed for path reaction "C(=[CH])[N]N=C(1478) <=> C1C=C[N][N]1(1824)"
+See RMG-Py issue #253
+""",
+)
+
+entry(
+    label = "C=N[N]C#[C]",
+    group = 
+"""
+multiplicity [3]
+1 C u0 p0 c0 {2,D} {6,S} {7,S}
+2 N u0 p1 c0 {1,D} {3,S}
+3 N u1 p1 c0 {2,S} {4,S}
+4 C u0 p0 c0 {3,S} {5,T}
+5 C u1 p0 c0 {4,T}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sims (xa1456-xa1459) crashed with error:
+Did not find reverse reaction in reaction family H_Abstraction for reaction <Molecule "N(=C=[CH])N=[CH]"> + <Molecule "C=N[N]C#[C]"> <=> <Molecule "C=N[N]C#C"> + <Molecule "N(=C=[C])N=[CH]">.
+See RMG-Py issue #806
 """,
 )
 
