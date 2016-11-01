@@ -392,3 +392,24 @@ See RMG-Py issue #806
 """,
 )
 
+entry(
+    label = "C1=CO[N][N]1",
+    group = 
+"""
+multiplicity [3]
+1 C u0 p0 c0 {2,D} {5,S} {6,S}
+2 C u0 p0 c0 {1,D} {3,S} {7,S}
+3 O u0 p2 c0 {2,S} {4,S}
+4 N u1 p1 c0 {3,S} {5,S}
+5 N u1 p1 c0 {1,S} {4,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {2,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sims (xa1462-xa1465) crashed with error:
+Invalid k(E) values computed for path reaction "C(=[CH])N=[N+][O-](2989) <=> C1=CO[N][N]1(3358)".
+""",
+)
+
