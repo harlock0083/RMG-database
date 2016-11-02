@@ -413,3 +413,26 @@ Invalid k(E) values computed for path reaction "C(=[CH])N=[N+][O-](2989) <=> C1=
 """,
 )
 
+entry(
+    label = "C1N[C](N1)[O]",
+    group = 
+"""
+multiplicity [3]
+1 C u0 p0 c0 {2,S} {4,S} {6,S} {7,S}
+2 N u0 p1 c0 {1,S} {3,S} {8,S}
+3 C u1 p0 c0 {2,S} {4,S} {5,S}
+4 N u0 p1 c0 {1,S} {3,S} {9,S}
+5 O u1 p2 c0 {3,S}
+6 H u0 p0 c0 {1,S}
+7 H u0 p0 c0 {1,S}
+8 H u0 p0 c0 {2,S}
+9 H u0 p0 c0 {4,S}
+""",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+EA sim (xa1467) crashed with error:
+Mcoll = numpy.zeros((Nisom,Ngrains,NJ,Ngrains,NJ), numpy.float64)
+""",
+)
+
