@@ -1513,7 +1513,7 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 
 entry(
     index = 1201,
-    label = "NCC_1 + H <=> CH2CH2NH2 + H2",
+    label = "CH3CH2NH2_1 + H <=> CH2CH2NH2 + H2",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (9.07e+04, 'cm^3/(mol*s)'),
@@ -1532,7 +1532,7 @@ Ethylamine paper
 
 entry(
     index = 1202,
-    label = "NCC_2 + H <=> CH3CHNH2 + H2",
+    label = "CH3CH2NH2_2 + H <=> CH3CHNH2 + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (9.54e+03, 'cm^3/(mol*s)'),
@@ -1551,7 +1551,7 @@ Ethylamine paper
 
 entry(
     index = 1203,
-    label = "NCC_3 + H <=> CH3CH2NH + H2",
+    label = "CH3CH2NH2_3 + H <=> CH3CH2NH + H2",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (8.04e+04, 'cm^3/(mol*s)'),
@@ -1570,7 +1570,7 @@ Ethylamine paper
 
 entry(
     index = 1204,
-    label = "NCC_1 + CH3 <=> CH2CH2NH2 + CH4",
+    label = "CH3CH2NH2_1 + CH3 <=> CH2CH2NH2 + CH4",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (3.28e-04, 'cm^3/(mol*s)'),
@@ -1589,7 +1589,7 @@ Ethylamine paper
 
 entry(
     index = 1205,
-    label = "NCC_2 + CH3 <=> CH3CHNH2 + CH4",
+    label = "CH3CH2NH2_2 + CH3 <=> CH3CHNH2 + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (2.76e-02, 'cm^3/(mol*s)'),
@@ -1608,7 +1608,7 @@ Ethylamine paper
 
 entry(
     index = 1206,
-    label = "NCC_3 + CH3 <=> CH3CH2NH + CH4",
+    label = "CH3CH2NH2_3 + CH3 <=> CH3CH2NH + CH4",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.27e-02, 'cm^3/(mol*s)'),
@@ -1627,7 +1627,7 @@ Ethylamine paper
 
 entry(
     index = 1207,
-    label = "NCC_1 + NH2 <=> CH2CH2NH2 + NH3",
+    label = "CH3CH2NH2_1 + NH2 <=> CH2CH2NH2 + NH3",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (1.44e-02, 'cm^3/(mol*s)'),
@@ -1646,7 +1646,7 @@ Ethylamine paper
 
 entry(
     index = 1208,
-    label = "NCC_2 + NH2 <=> CH3CHNH2 + NH3",
+    label = "CH3CH2NH2_2 + NH2 <=> CH3CHNH2 + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.28e+00, 'cm^3/(mol*s)'),
@@ -1665,7 +1665,7 @@ Ethylamine paper
 
 entry(
     index = 1209,
-    label = "NCC_3 + NH2 <=> CH3CH2NH + NH3",
+    label = "CH3CH2NH2_3 + NH2 <=> CH3CH2NH + NH3",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (9.73e-02, 'cm^3/(mol*s)'),
@@ -1684,7 +1684,7 @@ Ethylamine paper
 
 entry(
     index = 1210,
-    label = "NCC_1 + OH <=> CH2CH2NH2 + H2O",
+    label = "CH3CH2NH2_1 + OH <=> CH2CH2NH2 + H2O",
     degeneracy = 3,
     kinetics = Arrhenius(
         A = (7.94e+02, 'cm^3/(mol*s)'),
@@ -1706,7 +1706,7 @@ The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021
 
 entry(
     index = 1211,
-    label = "NCC_2 + OH <=> CH3CHNH2 + H2O",
+    label = "CH3CH2NH2_2 + OH <=> CH3CHNH2 + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (3.28e+05, 'cm^3/(mol*s)'),
@@ -1728,7 +1728,7 @@ The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021
 
 entry(
     index = 1212,
-    label = "NCC_3 + OH <=> CH3CH2NH + H2O",
+    label = "CH3CH2NH2_3 + OH <=> CH3CH2NH + H2O",
     degeneracy = 2,
     kinetics = Arrhenius(
         A = (1.12e+05, 'cm^3/(mol*s)'),
