@@ -1511,3 +1511,335 @@ Rate comes from quantum calculation by J. Zador at CCSD(T) level
 """,
 )
 
+entry(
+    index = 1201,
+    label = "NCC_1 + H <=> CH2CH2NH2 + H2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (9.07e+04, 'cm^3/(mol*s)'),
+        n = 2.75,
+        Ea = (6800, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1202,
+    label = "NCC_2 + H <=> CH3CHNH2 + H2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.54e+03, 'cm^3/(mol*s)'),
+        n = 2.94,
+        Ea = (500, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1203,
+    label = "NCC_3 + H <=> CH3CH2NH + H2",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (8.04e+04, 'cm^3/(mol*s)'),
+        n = 2.64,
+        Ea = (5500, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1204,
+    label = "NCC_1 + CH3 <=> CH2CH2NH2 + CH4",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (3.28e-04, 'cm^3/(mol*s)'),
+        n = 4.85,
+        Ea = (7000, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1205,
+    label = "NCC_2 + CH3 <=> CH3CHNH2 + CH4",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (2.76e-02, 'cm^3/(mol*s)'),
+        n = 4.23,
+        Ea = (4200, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1206,
+    label = "NCC_3 + CH3 <=> CH3CH2NH + CH4",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.27e-02, 'cm^3/(mol*s)'),
+        n = 4.41,
+        Ea = (4800, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1207,
+    label = "NCC_1 + NH2 <=> CH2CH2NH2 + NH3",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (1.44e-02, 'cm^3/(mol*s)'),
+        n = 4.43,
+        Ea = (3600, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1208,
+    label = "NCC_2 + NH2 <=> CH3CHNH2 + NH3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.28e+00, 'cm^3/(mol*s)'),
+        n = 3.75,
+        Ea = (1000, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1209,
+    label = "NCC_3 + NH2 <=> CH3CH2NH + NH3",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (9.73e-02, 'cm^3/(mol*s)'),
+        n = 4.03,
+        Ea = (1900, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1210,
+    label = "NCC_1 + OH <=> CH2CH2NH2 + H2O",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (7.94e+02, 'cm^3/(mol*s)'),
+        n = 2.97,
+        Ea = (-1040, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""VTST""",
+    longDesc = 
+u"""
+S. Li, E. Dames, D.F. Davidson, R.K. Hanson
+"High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
+The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+(with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
+""",
+)
+
+entry(
+    index = 1211,
+    label = "NCC_2 + OH <=> CH3CHNH2 + H2O",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (3.28e+05, 'cm^3/(mol*s)'),
+        n = 2.24,
+        Ea = (-3040, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""VTST""",
+    longDesc = 
+u"""
+S. Li, E. Dames, D.F. Davidson, R.K. Hanson
+"High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
+The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+(with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
+""",
+)
+
+entry(
+    index = 1212,
+    label = "NCC_3 + OH <=> CH3CH2NH + H2O",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.12e+05, 'cm^3/(mol*s)'),
+        n = 2.36,
+        Ea = (-2860, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""VTST""",
+    longDesc = 
+u"""
+S. Li, E. Dames, D.F. Davidson, R.K. Hanson
+"High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
+The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
+(with geometries from http://dx.doi.org/10.1021/ct7002786 CCSD(T)/6-311++G(2d,2p) single-point calculations)
+""",
+)
+
+entry(
+    index = 1213,
+    label = "N2H4 + H <=> N2H3 + H2",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.48e+08, 'cm^3/(mol*s)'),
+        n = 1.69,
+        Ea = (4000, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1214,
+    label = "N2H4 + CH3 <=> N2H3 + CH4",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (1.77e+01, 'cm^3/(mol*s)'),
+        n = 3.60,
+        Ea = (3500, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1215,
+    label = "N2H4 + NH2 <=> N2H3 + NH3",
+    degeneracy = 4,
+    kinetics = Arrhenius(
+        A = (2.59e+03, 'cm^3/(mol*s)'),
+        n = 2.83,
+        Ea = (700, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1216,
+    label = "CH3CHNH_1 + H <=> CH2CHNH + H2",
+    degeneracy = 3,
+    kinetics = Arrhenius(
+        A = (3.98e+04, 'cm^3/(mol*s)'),
+        n = 2.76,
+        Ea = (4400, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
+entry(
+    index = 1217,
+    label = "CH3CHNH_2 + H <=> CH3CHN + H2",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.19e+07, 'cm^3/(mol*s)'),
+        n = 1.96,
+        Ea = (2400, 'cal/mol'),
+        T0 = (1, 'K'),
+        Tmin = (700, 'K'),
+        Tmax = (2000, 'K'),
+    ),
+    shortDesc = u"""CBS-QB3""",
+    longDesc = 
+u"""
+Ethylamine paper
+""",
+)
+
