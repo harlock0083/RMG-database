@@ -1523,6 +1523,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1542,6 +1543,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1561,6 +1563,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1580,6 +1583,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1599,6 +1603,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1618,6 +1623,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1637,6 +1643,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1656,6 +1663,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1675,6 +1683,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1694,7 +1703,8 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
-    shortDesc = u"""VTST""",
+    rank = 3,
+    shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
     longDesc = 
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
@@ -1716,7 +1726,8 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
-    shortDesc = u"""VTST""",
+    rank = 3,
+    shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
     longDesc = 
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
@@ -1738,7 +1749,8 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
-    shortDesc = u"""VTST""",
+    rank = 3,
+    shortDesc = u"""VTST CCSD(T)/6-311++g(2d,2p)""",
     longDesc = 
 u"""
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
@@ -1760,6 +1772,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1779,6 +1792,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1798,6 +1812,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1817,6 +1832,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""
@@ -1836,6 +1852,7 @@ entry(
         Tmin = (700, 'K'),
         Tmax = (2000, 'K'),
     ),
+    rank = 3,
     shortDesc = u"""CBS-QB3""",
     longDesc = 
 u"""

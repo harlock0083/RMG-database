@@ -8,9 +8,9 @@ Automated Reaction Mechanism Generation Including Heteroatoms: Nitrogen
 Alon Grinberg Dana, Beat Buesser, Shamel S. Merchant, William H. Green
 Table 2
 Kinetic data for reactions 1–9, 13–24 were calculated using:
-CBS-QB3 for energy barriers, B3LYP/6-311G(2d,d,p) for partition functions, hybrid meta-GGA BMK/6-311G(2d,d,p) for addition reactions.
+CBS-QB3 1-dHR for energy barriers, B3LYP/6-311G(2d,d,p) for partition functions, hybrid meta-GGA BMK/6-311G(2d,d,p) for addition reactions.
 
-Kinetic data for reactions 10–12 (NCC + OH) were adopted from the literature (VTST):
+Kinetic data for reactions 10–12 (NCC + OH) were adopted from the literature (VTST CCSD(T)/6-311++g(2d,2p)):
 S. Li, E. Dames, D.F. Davidson, R.K. Hanson
 "High-Temperature Measurements of the Reactions of OH with Ethylamine and Dimethylamine"
 The Journal of Physical Chemistry A, 2014, 118, 70-77, http://dx.doi.org/10.1021/jp411141w
@@ -157,16 +157,16 @@ entry(
     index = 18,
     label = "CH2CHNH2 + H <=> CH2CH2NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(3.14e+07, 'cm^3/(mol*s)'), n=1.77, Ea=(3729, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R18: beta scission""",
+    kinetics = Arrhenius(A=(3.141e+07, 'cm^3/(mol*s)'), n=1.767, Ea=(3729, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Table 2, R18: R Addition Multiple Bond (Beta Scission)""",
 )
 
 entry(
     index = 19,
     label = "C2H4 + NH2 <=> CH2CH2NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.23e+03, 'cm^3/(mol*s)'), n=2.76, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R19: beta scission""",
+    kinetics = Arrhenius(A=(1.228e+03, 'cm^3/(mol*s)'), n=2.756, Ea=(1658, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Table 2, R19: R Addition Multiple Bond (Beta Scission)""",
 )
 
 entry(
@@ -174,15 +174,15 @@ entry(
     label = "CH3CHNH2 <=> CH2CHNH2 + H",
     degeneracy = 3,
     kinetics = Arrhenius(A=(1.14e+09, 's^-1'), n=1.49, Ea=(35100, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R20: beta scission""",
+    shortDesc = u"""Table 2, R20: Beta Scission (R Addition Multiple Bond)""",
 )
 
 entry(
     index = 21,
     label = "CH2NH + H <=> CH2NH2",
     degeneracy = 1,
-    kinetics = Arrhenius(A=(1.48e+08, 'cm^3/(mol*s)'), n=1.67, Ea=(2.295, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R21: beta scission""",
+    kinetics = Arrhenius(A=(1.475e+08, 'cm^3/(mol*s)'), n=1.674, Ea=(2295, 'cal/mol'), T0=(1, 'K')),
+    shortDesc = u"""Table 2, R21: R Addition Multiple Bond (Beta Scission)""",
 )
 
 entry(
@@ -190,7 +190,7 @@ entry(
     label = "CH2CHNH <=> CH2CNH + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(2.18e+07, 's^-1'), n=2.26, Ea=(50300, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R22: beta scission""",
+    shortDesc = u"""Table 2, R22: Beta Scission (R Addition Multiple Bond)""",
 )
 
 entry(
@@ -198,7 +198,7 @@ entry(
     label = "CH3CHN <=> CH3 + HCN",
     degeneracy = 1,
     kinetics = Arrhenius(A=(7.52e+10, 's^-1'), n=1.10, Ea=(26200, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R23: beta scission""",
+    shortDesc = u"""Table 2, R23: R Addition Multiple Bond (Beta Scission)""",
 )
 
 entry(
@@ -206,7 +206,7 @@ entry(
     label = "CH3CHN <=> CH3CN + H",
     degeneracy = 1,
     kinetics = Arrhenius(A=(1.49e+09, 's^-1'), n=1.44, Ea=(27000, 'cal/mol'), T0=(1, 'K')),
-    shortDesc = u"""Table 2, R24: beta scission""",
+    shortDesc = u"""Table 2, R24: R Addition Multiple Bond (Beta Scission)""",
 )
 
 entry(
